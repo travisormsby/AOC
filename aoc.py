@@ -1,3 +1,5 @@
+# helper script to get input file
+
 def read_input(cookie_file, output_dir, year, day):
     import requests, os
 
