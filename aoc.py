@@ -12,6 +12,8 @@ def read_input(cookie_file, output_dir, year, day):
         with open(outpath, "wb") as file:
             file.write(r.content)
 
+def parse_lines(f):
+    return f.read().strip().split("\n")
 
 if __name__ == "__main__":
     pass
