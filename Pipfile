@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 requests = "*"
+networkx = "*"
+numpy = "*"
+matplotlib = "*"
 
 [dev-packages]
 ipykernel = "*"
